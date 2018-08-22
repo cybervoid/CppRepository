@@ -4,7 +4,7 @@
 #include <string>
 using namespace std;
 
-int run() {
+int basic_vector() {
 	//vector is a template class
 	vector<string> strings;
 	strings.push_back("one");

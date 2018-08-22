@@ -5,7 +5,7 @@
 #include "vvectors.h"
 int main()
 {
-	run();
+	basic_vector();
 	//readFiles();
 	//writeFiles();
 	return 0;
