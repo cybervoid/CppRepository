@@ -2,8 +2,11 @@
 #include <string>
 #include <iostream>
 #include "files.h"
+#include "vvectors.h"
 int main()
 {
-	writeFiles();
+	run();
+	//readFiles();
+	//writeFiles();
 	return 0;
 }
