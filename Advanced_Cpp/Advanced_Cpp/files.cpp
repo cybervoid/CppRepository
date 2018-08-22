@@ -19,3 +19,26 @@ int writeFiles()
 	}
 	return 0;
 } 
+
+int readFiles()
+{
+	string inFileName = "text.txt";
+	ifstream inFile;
+	inFile.open(inFileName, ios::in);
+
+	if (inFile.is_open()) {
+		string line;
+		//while (!inFile.eof()) {
+		while (inFile) {
+			getline(inFile, line);
+			cout << line << endl;
+		}
+		//inFile >> line;
+		
+		inFile.close();
+	}
+	else {
+		cout << "Cannot open file: " << inFileName << endl;
+	}
+	return 0;
+}

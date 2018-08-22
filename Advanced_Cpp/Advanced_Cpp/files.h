@@ -1,1 +1,2 @@
 int writeFiles();
+int readFiles();
