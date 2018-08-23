@@ -4,6 +4,19 @@
 #include <string>
 using namespace std;
 
+
+int vectors_and_memory()
+{
+	vector<double> numbers(20);
+	cout << "Size: " << numbers.size() << endl;
+	int capacity = numbers.capacity();
+	cout << "Capacity: " << capacity << endl;
+	for (int i = 0; i < 10000; i++)
+	{
+
+	}
+}
+
 int basic_vector() {
 	//vector is a template class
 	vector<string> strings;
